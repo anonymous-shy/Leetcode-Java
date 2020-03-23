@@ -2,8 +2,6 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-import javax.lang.model.util.ElementScanner6;
-
 /*
  * @lc app=leetcode.cn id=15 lang=java
  *
