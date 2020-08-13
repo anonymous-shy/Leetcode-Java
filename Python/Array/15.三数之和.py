@@ -43,7 +43,9 @@ class Solution:
         nums.sort()
         for k in range(len(nums) - 2):
             if k > 0 and nums[k] == nums[k-1]:
-                continue
+                continuere
+            if nums[k] > 0:
+                break
             L, R = k+1, len(nums) - 1
             while L < R:
                 s = nums[k] + nums[L] + nums[R]

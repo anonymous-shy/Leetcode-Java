@@ -53,7 +53,7 @@ class Solution {
             return res;
         }
         Arrays.sort(nums);
-        // 设置K
+        // 设置K flag
         for (int k = 0; k < nums.length - 2; k++) {
             if (nums[k] > 0)
                 break;
@@ -69,7 +69,8 @@ class Solution {
                             hi--;
                         lo++;
                         hi--;
-                    } else if (nums[lo] + nums[hi] < sum)
+                    } 
+                    else if (nums[lo] + nums[hi] < sum)
                         lo++;
                     else
                         hi--;
